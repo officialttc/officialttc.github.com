@@ -11,13 +11,14 @@
     --theme-primary: white;
     --theme-secondary: rgb(94, 94, 235);
 }
-
 * {
     font-family: Arial, Helvetica, sans-serif;
     font-size:  24px;
     color: white;
     background-color: var(--theme-background);
 }
+
+
 body {
     padding: 100px 30px;
     height: 3000px;
@@ -42,7 +43,6 @@ body {
     justify-content: space-between;
     display: flex;
 }
-
 .subheader_container{
     display: flex;
     justify-content: right;
@@ -63,3 +63,5 @@ body {
     opacity: 0.7;
     box-shadow: 2px 2px 5px black;
 }
+
+
