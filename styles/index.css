@@ -17,7 +17,11 @@
     color: white;
     background-color: var(--theme-background);
 }
-
+button {
+    padding: 5px 15px;
+    border-radius: 15px;
+    border: 2px solid rgb(117, 117, 117);
+}
 
 body {
     padding: 100px 30px;
@@ -48,12 +52,6 @@ body {
     justify-content: right;
     align-items:  center;
 }
-.subheader {
-    padding: 5px 15px;
-    border-radius: 15px;
-    border: 2px solid rgb(117, 117, 117);
-    margin-right: 20px;
-}
 .subheader:hover {
     cursor: pointer;
     background-color: var(--theme-secondary);
@@ -63,5 +61,6 @@ body {
     opacity: 0.7;
     box-shadow: 2px 2px 5px black;
 }
-
-
+.link {
+    margin-right: 20px;
+}

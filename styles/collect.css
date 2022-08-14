@@ -1,0 +1,33 @@
+.money_counter {
+    padding: 5px 15px;
+    border-radius: 15px;
+    border: 2px solid rgb(117, 117, 117);
+}
+.game_container {
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    height: 1000px;
+    border: 3px solid var(--theme-secondary);
+    border-radius: 15px;
+    padding: 20px;
+}
+
+.game_line {
+    padding: 20px;
+    left: 10px;
+    right: 10px;
+    top: 10px;
+    justify-content: left;
+    display: flex;
+}
+
+.game_text {
+    padding: 5px 15px;
+    border-radius: 15px;
+    border: 2px solid rgb(117, 117, 117);
+}
+.game_element {
+    margin-right: 20px;
+}
