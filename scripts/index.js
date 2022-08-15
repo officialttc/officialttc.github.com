@@ -33,5 +33,6 @@ function requestChanged() {
     moneyRequestField.value = "";
     moneyRequest = 0;
   }
+  moneyRequestField.placeholder = moneyRequest.toString()
   incrementMoney();
 }
