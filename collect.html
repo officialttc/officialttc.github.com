@@ -7,7 +7,7 @@
     <title>Official TTC</title>
     <link rel="stylesheet" href="styles/index.css" />
     <link rel="stylesheet" href="styles/collect.css" />
-    <script src="scripts/index.js"></script>
+    <script src="scripts/index.js" defer="true"></script>
   </head>
   <body>
     <div class="header-cover">
@@ -38,15 +38,22 @@
       Placeat eaque est provident facilis, facere veniam.
     </div>
     <div class="game_container">
-        <div class="game_line">
-            <button class="subheader game_element"> Get Money</button>
-            <input type="text" class="money_counter game_element" placeholder="Enter value here">
-        </div>
-        <div class="game_line">
-            <div class="game_text game_element">Money: 10,304.34$</div>
-        </di>
-
+      <div class="game_line">
+        <button id="moneyBtn" class="subheader game_element">Get Money</button>
+        <input
+          id="moneyRequestField"
+          type="text"
+          class="money_counter game_element"
+          placeholder="Enter value here"
+          id="moneyRequest"
+        />
+      </div>
+      <div class="game_line">
+        <div id="moneyInfoLabel" class="game_text game_element">Money: 10,304.34$</div>
+      </div>
+      <div class="game_line">
+        <div class="game_text game_element"></div>
+      </div>
     </div>
-
   </body>
 </html>
